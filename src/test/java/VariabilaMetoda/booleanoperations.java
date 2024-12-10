@@ -2,10 +2,10 @@ package VariabilaMetoda;
 
 import org.testng.annotations.Test;
 
-public class BooleanOperations {
+public class booleanoperations {
 
     public Boolean primaOperatie;
-    public Boolean isSunny;;
+    public Boolean isSunny;
     public Boolean isWarm;
     public Boolean chanceOfRain;
 
@@ -18,10 +18,6 @@ public class BooleanOperations {
         chanceOfRain = true;
         System.out.println("Este aceasta prima operatie?" + primaOperatie);
         greaterValue1();
-        goOut();
-
-
-
 
     }
     public void greaterValue1(){
@@ -31,16 +27,6 @@ public class BooleanOperations {
 
         System.out.println("Is value 1 greater then value 2? " + greater);
 
-    }
-    public void goOut(){
-        Boolean shouldGoOut = isSunny || isWarm != chanceOfRain;
-        Boolean shouldNotGoOut1 = isSunny || isWarm && chanceOfRain;
-        Boolean shouldNotGoOut2 = isSunny.true && chanceOfRain;
-        Boolean shouldNotGoOut3 = isWarm && chanceOfRain;
-
-        System.out.println("Should I go out on this weather? " + shouldGoOut);
-        System.out.println("Should I go out on this weather? " + shouldNotGoOut1);
-        System.out.println("Should I go out on this weather? " + shouldNotGoOut2);
     }
 
 }
