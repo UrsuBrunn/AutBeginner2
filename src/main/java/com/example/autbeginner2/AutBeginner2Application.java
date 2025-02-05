@@ -9,9 +9,10 @@ public class AutBeginner2Application {
 
     public static void main(String[] args) {
         SpringApplication.run(AutBeginner2Application.class, args);
-        citireNote();
+//        citireNote();
 //        printareValori();
 //        printareValoriDoWhile();
+        printareValoriFor();
     }
 
     public static void citireNote(){
@@ -29,18 +30,27 @@ public class AutBeginner2Application {
         System.out.println("Introduceti o valoare");
                 int valoarenou = 1;
         while (valoarenou <= 5) {
-            System.out.println("Valoare "+ valoarenou +" e mai mica ca 5");
+            System.out.println("Valoare "+ valoarenou +" e mai mica sau egal ca 5");
             valoarenou++;
         }
+        System.out.println("Valoarea dupa structura while e" + valoarenou);
     }
 
     public static void printareValoriDoWhile(){
         System.out.println("Introduceti o valoare");
-        int valoarenou = 1;
+        int valoarenou = 6;
         do{
-            System.out.println("Valoare "+ valoarenou +" e mai mica ca 5");
+            System.out.println("Valoare "+ valoarenou +" e mai mica sau egala ca 5");
             valoarenou++;
         } while (valoarenou <= 5);
+        System.out.println("Valoare dupa structura DOwhile e" + valoarenou);
     }
 
+    public static void printareValoriFor(){
+        int valoarenou = 1;
+        for (; valoarenou <= 5;) {
+            System.out.println("Vloarea este: " + valoarenou);
+            valoarenou++;
+        }
+    }
 }
