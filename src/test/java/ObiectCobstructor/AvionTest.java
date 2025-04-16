@@ -15,5 +15,6 @@ public class AvionTest {
         Avion avion3 = new Avion("pasageri", "Boeing", "B-127", 260, "Electric", 300);
         avion3.prezentareAvion();
 
+
     }
 }
