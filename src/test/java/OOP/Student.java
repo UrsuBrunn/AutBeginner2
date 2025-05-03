@@ -2,9 +2,9 @@ package OOP;
 
 public class Student extends Persoana {
 
-    public String facultate;
-    public Integer anul;
-    public Boolean bursa;
+    private String facultate;
+    private Integer anul;
+    private Boolean bursa;
 
     public Student(String nume, String prenume, Integer varsta, String facultate, Integer anul, Boolean bursa) {
         super(nume, prenume, varsta);
@@ -20,5 +20,27 @@ public class Student extends Persoana {
         System.out.println("Are studentul bursa? " + bursa);
     }
 
+    public void absolvire() {
+        System.out.println("Studentul cu numele " + getNume() + getPrenume() + "a absolvit");
+    }
 
+    public String getFacultate() {
+        return facultate;
+    }
+
+    public Boolean getBursa() {
+        return bursa;
+    }
+
+    public Integer getAnul() {
+        return anul;
+    }
+
+    public void setAnul(Integer anul) {
+        this.anul = anul;
+    }
+
+    public void setBursa(Boolean bursa) {
+        this.bursa = bursa;
+    }
 }

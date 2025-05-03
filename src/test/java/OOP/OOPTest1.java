@@ -11,5 +11,9 @@ public class OOPTest1 {
 
         Angajat Paul2 = new Angajat("Gligan","Paul",42,"Endava", 15, 25);
         Paul2.infoAngajat();
+
+        Paul2.promovare();
+
+
     }
 }
