@@ -15,6 +15,22 @@ public class Persoana {
     // PRIVATE = access control care restrictioneaza accessul doar in clasa respectiva
     // Ca sa extragem  sau modificam o valaore a unei variabile private ne folosim de metode GET si SET
 
+    // POLYMORPHISM =  procesul pri care definim mai multe implementari pt o metoda
+    // Polimorphism de 2 feluri: DDINAMIC(Override) si STATIC(Overload)
+    // Polimorphism dinamic = intr-o ierarhie de clase obtinuta prin mostenire poate aea implementari diferite
+    // Polimorphism static = posibilitatea prin care o metoda are mai multe implementari prin diferentierea numarului si tipului de parametrii
+
+
+    // ABSTRACTIZARE = Reducerea unui element complex la un element mai simplu (reducerea completa a implementarii metodelor, lasand doar numele fucntiilor, parametrii si tipul returnat
+    // Tipuri abstractizare: INTERFETE, Clase abstracte
+    // Clasele abstracte sunt utilizate pentru a declara caracteristici comune unor subclase
+    //      O clasa abstracta nu poate fi instantiata. Ea poate fi utiliza ca si super clasa pentru alte clase care detin clasa abstracta (clasa abstracta e definita folosind modificatorul ABSTRACT)
+    //      O clasa abstracta poate contine atribute si metode pe langa clasa abstracta
+
+    // Interfata = Ofera raspuns lipsei mosteniri multiple. Creaza un protocol pe care clasele trebuie sa il implementeze
+    //          Interfata contine toate metodele abstracte ( e o clasa pur abstracta)
+
+
 
     private String nume;
     private String prenume;
@@ -31,6 +47,13 @@ public class Persoana {
         System.out.println("Prenume este " + prenume);
         System.out.println("Varsta este " + varsta);
     }
+
+    // DEfinim prima impleentare pt o metoda (polimorphism dinamic)
+    public void mananca() {
+        System.out.println("Persoana mananaca cand ii este foame ");
+    }
+
+
 
     public Integer getVarsta() {
         return varsta;
