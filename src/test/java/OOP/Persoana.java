@@ -30,6 +30,8 @@ public class Persoana {
     // Interfata = Ofera raspuns lipsei mosteniri multiple. Creaza un protocol pe care clasele trebuie sa il implementeze
     //          Interfata contine toate metodele abstracte ( e o clasa pur abstracta)
 
+    //
+
 
 
     private String nume;
