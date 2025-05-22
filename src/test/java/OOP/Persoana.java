@@ -30,6 +30,13 @@ public class Persoana {
     // Interfata = Ofera raspuns lipsei mosteniri multiple. Creaza un protocol pe care clasele trebuie sa il implementeze
     //          Interfata contine toate metodele abstracte ( e o clasa pur abstracta)
 
+    // Modificatori de Access: PUBLIC, PRIVATE, PROTECTED and DEFAULT
+    //      PUBLIC: codul e accesibil de oriunde si de orice clasa
+    //      PRIVATE: codul e accesibil doar de clasa unde s-a scris codul
+    //      PROTECTED: codul e accesibil doar din pachetul in care s-a scris codul, dar si de catre subclase (OOP mostenia)
+    //      DEFAULT: codul se poate accesa doar din apchetul in care s-a scris codul. Intra in default daca nu se specifica un anume modificator de access
+
+
 
 
     private String nume;
