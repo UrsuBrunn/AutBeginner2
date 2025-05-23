@@ -1,4 +1,4 @@
-package OOP.Sesiunea17.Static.ex3;
+package Sesiunea17.StaticAccessModifier.ex3;
 
 public class AngajatTest {
     public static void main(String[] args) {

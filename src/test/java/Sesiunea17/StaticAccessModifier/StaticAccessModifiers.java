@@ -1,4 +1,4 @@
-package OOP.Sesiunea17.Static;
+package Sesiunea17.StaticAccessModifier;
 
 public class StaticAccessModifiers {
 

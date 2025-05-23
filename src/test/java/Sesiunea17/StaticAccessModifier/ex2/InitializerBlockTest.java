@@ -1,4 +1,4 @@
-package OOP.Sesiunea17.Static.ex2;
+package Sesiunea17.StaticAccessModifier.ex2;
 
 public class InitializerBlockTest {
 
